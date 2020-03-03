@@ -8,7 +8,7 @@ source: National Climatic Weather Center
 # Introduction
 This project is created by Wenkang Li and Hyejin An. We select two datasets from the National Climatic Data Center and normalized them into a database. We hope, by using this database, we can conclude the relationship between weather factors such as attributes and storm events in the U.S.
 
-# Folder Description
+#### Folder Description
 ERD folder contains the structure of this database.
 Data Cleansing and Normalization folder contains the Python codes for cleansing the raw datasets and transforming them into intended structure.
 Cross-Dataset Queries folder contains SQL codes for querying the database.
