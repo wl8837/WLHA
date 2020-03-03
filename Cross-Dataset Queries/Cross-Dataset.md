@@ -1,5 +1,3 @@
-
-
 Query 1. 
 This query show the relationship between the number of storm and average max and min temperature in each state, each year. This query joins the temperature table, location table in the main dataset and the storm_event, state tables of the secondary dataset. It calculate the number of storm event of each state and each year matches them to the annual average max and min temperature.
 
