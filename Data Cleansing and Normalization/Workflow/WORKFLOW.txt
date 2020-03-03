@@ -1,0 +1,13 @@
+
+Create a transformed table for the duration of each storm by calculating the range of begin date and end date 
+in Time table of the second dataset (dataset2)
+- First, select event id, begin date, and end date from the Time table 
+  -- this table will be named create_duration_table
+  -- if we can do, we can also select storm name with event id from the Storm_event table in dataset2
+- Secondly, transform them to a table named 'Duration' by calculating the range of the dates
+  -- this table will be named transform_duration_table
+  -- this table will have attributes as event id and duration (maybe storm name too)
+- these will belong to the second dataset workflow
+- The transform_duration_table which transforms data task is dependent on the create_duration_table
+
+

@@ -1,0 +1,12 @@
+We did not have any error with our tables for milestone 4.
+
+Therefore, we perform pardo to sort out non-null values in a state column in location table.
+
+Later,
+And we may try to pardo to create a new column with range of temperature in temperature 
+table by using values of max. temperature and min. temperature.
+
+
+For second dataset,
+we need to cleanse the time table for data attributes because its type is timestamp. Therefore, we will make its type date.
+And we have to transform our state attribute in the location table to abbreviation form.
